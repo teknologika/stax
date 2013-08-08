@@ -1,0 +1,129 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libraries", "libraries", "{DC72A33B-15D2-46A6-B76B-1CDA618DA6C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "testing-stax", "testing-stax", "{2B568F13-0EC2-437C-8BA2-4766FA8180DA}"
+	ProjectSection(SolutionItems) = preProject
+		libraries\testing-stax\Interop.SHDocVw.dll = libraries\testing-stax\Interop.SHDocVw.dll
+		libraries\testing-stax\Microsoft.mshtml.dll = libraries\testing-stax\Microsoft.mshtml.dll
+		libraries\testing-stax\Stax.UIAutomation.dll = libraries\testing-stax\Stax.UIAutomation.dll
+		libraries\testing-stax\WatiN.Core.dll = libraries\testing-stax\WatiN.Core.dll
+		libraries\testing-stax\WatiN.Core.pdb = libraries\testing-stax\WatiN.Core.pdb
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parkcalc.Physical", "ParkCalc.Physical\Parkcalc.Physical.csproj", "{5B731E2E-DB5E-4FA7-955F-E1E20D0E3201}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parkcalc.Controls", "Parkcalc.Controls\Parkcalc.Controls.csproj", "{E23A37BF-93DC-4637-9D61-F7F3E72B60FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "stax", "stax", "{5514CCBB-639E-41B8-8999-BD9AD2785C6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{19EB00C8-0EC2-48B9-AFE7-F19574F1E67A}"
+	ProjectSection(SolutionItems) = preProject
+		Parkcalc.vsmdi = Parkcalc.vsmdi
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parkcalc.Tests", "Parkcalc.Tests\Parkcalc.Tests.csproj", "{A44B7625-970B-4CE9-8932-D202728CD7C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parkcalc.Observer", "Parkcalc.Observer\Parkcalc.Observer.csproj", "{B506795B-7A7C-40C6-B646-33F536740921}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nunit", "nunit", "{A5C859B8-3A4F-4864-9E1F-D0A9549C5B2B}"
+	ProjectSection(SolutionItems) = preProject
+		libraries\nunit\nunit.core.dll = libraries\nunit\nunit.core.dll
+		libraries\nunit\nunit.core.interfaces.dll = libraries\nunit\nunit.core.interfaces.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SpecFlow", "SpecFlow", "{817F9207-9F66-452C-B678-795A85B6FCE6}"
+	ProjectSection(SolutionItems) = preProject
+		libraries\SpecFlow\v1.4\TechTalk.SpecFlow.dll = libraries\SpecFlow\v1.4\TechTalk.SpecFlow.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stax.Controllers.Web.Selenium", "Stax\Stax.Controllers.Selenium\Stax.Controllers.Web.Selenium.csproj", "{3FC6A590-0D0E-4420-A766-E3563230D11A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stax.Controllers.Windows.UIAutomation", "Stax\Stax.Controllers.UIAutomation\Stax.Controllers.Windows.UIAutomation.csproj", "{66D944BC-D90C-490A-B57D-3F774CC5B77D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stax.Controllers.Web.Watin", "Stax\Stax.Controllers.Watin\Stax.Controllers.Web.Watin.csproj", "{70B06EF9-D6E3-4B94-BC47-53957F267F5C}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs11
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Parkcalc.Controls\\Parkcalc.Controls.csproj
+		SccProjectName1 = Parkcalc.Controls
+		SccLocalPath1 = Parkcalc.Controls
+		SccProjectUniqueName2 = Parkcalc.Observer\\Parkcalc.Observer.csproj
+		SccProjectName2 = Parkcalc.Observer
+		SccLocalPath2 = Parkcalc.Observer
+		SccProjectUniqueName3 = ParkCalc.Physical\\Parkcalc.Physical.csproj
+		SccProjectName3 = ParkCalc.Physical
+		SccLocalPath3 = ParkCalc.Physical
+		SccProjectUniqueName4 = Parkcalc.Tests\\Parkcalc.Tests.csproj
+		SccProjectName4 = Parkcalc.Tests
+		SccLocalPath4 = Parkcalc.Tests
+		SccProjectUniqueName5 = Stax\\Stax.Controllers.Selenium\\Stax.Controllers.Web.Selenium.csproj
+		SccProjectTopLevelParentUniqueName5 = Parkcalc.sln
+		SccProjectName5 = Stax/Stax.Controllers.Selenium
+		SccLocalPath5 = Stax\\Stax.Controllers.Selenium
+		SccProjectUniqueName6 = Stax\\Stax.Controllers.UIAutomation\\Stax.Controllers.Windows.UIAutomation.csproj
+		SccProjectTopLevelParentUniqueName6 = Parkcalc.sln
+		SccProjectName6 = Stax/Stax.Controllers.UIAutomation
+		SccLocalPath6 = Stax\\Stax.Controllers.UIAutomation
+		SccProjectUniqueName7 = Stax\\Stax.Controllers.Watin\\Stax.Controllers.Web.Watin.csproj
+		SccProjectTopLevelParentUniqueName7 = Parkcalc.sln
+		SccProjectName7 = Stax/Stax.Controllers.Watin
+		SccLocalPath7 = Stax\\Stax.Controllers.Watin
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Parkcalc.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B731E2E-DB5E-4FA7-955F-E1E20D0E3201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B731E2E-DB5E-4FA7-955F-E1E20D0E3201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B731E2E-DB5E-4FA7-955F-E1E20D0E3201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B731E2E-DB5E-4FA7-955F-E1E20D0E3201}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E23A37BF-93DC-4637-9D61-F7F3E72B60FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E23A37BF-93DC-4637-9D61-F7F3E72B60FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E23A37BF-93DC-4637-9D61-F7F3E72B60FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E23A37BF-93DC-4637-9D61-F7F3E72B60FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A44B7625-970B-4CE9-8932-D202728CD7C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A44B7625-970B-4CE9-8932-D202728CD7C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A44B7625-970B-4CE9-8932-D202728CD7C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A44B7625-970B-4CE9-8932-D202728CD7C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B506795B-7A7C-40C6-B646-33F536740921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B506795B-7A7C-40C6-B646-33F536740921}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B506795B-7A7C-40C6-B646-33F536740921}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B506795B-7A7C-40C6-B646-33F536740921}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FC6A590-0D0E-4420-A766-E3563230D11A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FC6A590-0D0E-4420-A766-E3563230D11A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FC6A590-0D0E-4420-A766-E3563230D11A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FC6A590-0D0E-4420-A766-E3563230D11A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66D944BC-D90C-490A-B57D-3F774CC5B77D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66D944BC-D90C-490A-B57D-3F774CC5B77D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66D944BC-D90C-490A-B57D-3F774CC5B77D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66D944BC-D90C-490A-B57D-3F774CC5B77D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70B06EF9-D6E3-4B94-BC47-53957F267F5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70B06EF9-D6E3-4B94-BC47-53957F267F5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70B06EF9-D6E3-4B94-BC47-53957F267F5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70B06EF9-D6E3-4B94-BC47-53957F267F5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2B568F13-0EC2-437C-8BA2-4766FA8180DA} = {DC72A33B-15D2-46A6-B76B-1CDA618DA6C3}
+		{A5C859B8-3A4F-4864-9E1F-D0A9549C5B2B} = {DC72A33B-15D2-46A6-B76B-1CDA618DA6C3}
+		{817F9207-9F66-452C-B678-795A85B6FCE6} = {DC72A33B-15D2-46A6-B76B-1CDA618DA6C3}
+		{3FC6A590-0D0E-4420-A766-E3563230D11A} = {5514CCBB-639E-41B8-8999-BD9AD2785C6E}
+		{66D944BC-D90C-490A-B57D-3F774CC5B77D} = {5514CCBB-639E-41B8-8999-BD9AD2785C6E}
+		{70B06EF9-D6E3-4B94-BC47-53957F267F5C} = {5514CCBB-639E-41B8-8999-BD9AD2785C6E}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Parkcalc.Tests\Parkcalc.Tests.csproj
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{39DA1CD3-62E4-4AAC-B8FF-E63B940A436E}"
+	ProjectSection(SolutionItems) = preProject
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+		ManualTestSolutionGenerator.vsmdi = ManualTestSolutionGenerator.vsmdi
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManualTestSolutionGenerator", "ManualTestSolutionGenerator\ManualTestSolutionGenerator.csproj", "{DBB70B6A-9E27-4EF7-8B75-2209F3350EC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stax.TFS2008Common", "Stax.TFS2008Common\Stax.TFS2008Common.csproj", "{0EBA6341-18F6-4E36-A6CA-45C9843E6772}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs11
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ManualTestSolutionGenerator\\ManualTestSolutionGenerator.csproj
+		SccProjectName1 = ManualTestSolutionGenerator
+		SccLocalPath1 = ManualTestSolutionGenerator
+		SccProjectUniqueName2 = Stax.TFS2008Common\\Stax.TFS2008Common.csproj
+		SccProjectName2 = Stax.TFS2008Common
+		SccLocalPath2 = Stax.TFS2008Common
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = ManualTestSolutionGenerator.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBB70B6A-9E27-4EF7-8B75-2209F3350EC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBB70B6A-9E27-4EF7-8B75-2209F3350EC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBB70B6A-9E27-4EF7-8B75-2209F3350EC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBB70B6A-9E27-4EF7-8B75-2209F3350EC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EBA6341-18F6-4E36-A6CA-45C9843E6772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EBA6341-18F6-4E36-A6CA-45C9843E6772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EBA6341-18F6-4E36-A6CA-45C9843E6772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EBA6341-18F6-4E36-A6CA-45C9843E6772}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

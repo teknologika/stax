@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stax Control Grabber", "Stax Control Grabber\Stax Control Grabber.csproj", "{94C547B6-1248-4DFB-A982-BBA59D9D24CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{1C150CA6-6298-49F4-BD3E-03B28A9F7596}"
+	ProjectSection(SolutionItems) = preProject
+		References\Interop.SHDocVw.dll = References\Interop.SHDocVw.dll
+		References\WatiN.Core.dll = References\WatiN.Core.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs11
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Stax\u0020Control\u0020Grabber\\Stax\u0020Control\u0020Grabber.csproj
+		SccProjectName1 = Stax\u0020Control\u0020Grabber
+		SccLocalPath1 = Stax\u0020Control\u0020Grabber
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		AutomatedDebug|Any CPU = AutomatedDebug|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94C547B6-1248-4DFB-A982-BBA59D9D24CC}.AutomatedDebug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94C547B6-1248-4DFB-A982-BBA59D9D24CC}.AutomatedDebug|Any CPU.Build.0 = Debug|Any CPU
+		{94C547B6-1248-4DFB-A982-BBA59D9D24CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94C547B6-1248-4DFB-A982-BBA59D9D24CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94C547B6-1248-4DFB-A982-BBA59D9D24CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94C547B6-1248-4DFB-A982-BBA59D9D24CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
