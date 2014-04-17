@@ -1,0 +1,29 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Parkcalc.SeleniumTests/Test.cs">
+    <Files>
+      <File FileName="Parkcalc.Tests/Controllers/HomeControllerTest.cs" Line="1" Column="1" />
+      <File FileName="Parkcalc/Views/Home/Index.aspx" Line="1" Column="1" />
+      <File FileName="Parkcalc.SeleniumTests/Test.cs" Line="24" Column="52" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State expanded="True">
+          <Node name="Parkcalc.SeleniumTests" expanded="True">
+            <Node name="Parkcalc" expanded="True">
+              <Node name="SeleniumTests" expanded="True">
+                <Node name="Test" expanded="True">
+                  <Node name="TestCase" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
